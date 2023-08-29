@@ -1,0 +1,29 @@
+.cash-container{
+    position: relative;
+    display: flex;
+    align-items: center;
+    @media screen and (max-width:768px) {
+        display: none;
+    }
+
+}
+.body-mobile{
+    position:absolute;
+    z-index: 1;
+    background:none;
+    top:-45px;
+    left: 10vw;
+}
+.body-app{
+    position: absolute;
+    top: 160px;
+    left: 6vw;
+    z-index: 3;
+    background:none;
+}
+.header-stairs{
+position:absolute;
+@media screen and (max-width:927px) {
+    display: none;
+}
+}

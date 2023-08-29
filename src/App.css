@@ -1,0 +1,54 @@
+*{
+  background-color: black;
+
+}
+.body-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center align content horizontally */
+
+}
+
+.footer-container{
+  position: fixed; /* Position the div at the bottom */
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 100;
+  margin-top:20%;
+}
+
+.header-container{
+  margin-top: 2%;
+}
+.app-stairs{
+  background: none;
+  position: absolute;
+  z-index: 1;
+  top:493px;
+  left:-620px;
+}
+.app-pillar{
+  background: none;
+  position: absolute;
+  z-index: 1;
+  top:480px;
+  left: 70px;
+  
+}
+.background-image-container{
+  position: absolute;
+  z-index: 1;
+  @media screen and (max-width:927px) {
+    display: none;
+}
+}
+
+.body-con-a{
+  @media screen and (max-width:927px) {
+    display: none;
+}
+}
+.absolute-container{
+  position: absolute;
+}
